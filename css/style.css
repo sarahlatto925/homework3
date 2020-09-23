@@ -69,6 +69,7 @@ table{
   text-align: center;
   text-transform: uppercase;
   min-width: 125px;
+  vertical-align: middle;
 }
 
 .rowhead{
@@ -76,6 +77,7 @@ table{
   border-right: 2px solid #000000;
   text-align: center;
   padding: 10px;
+  vertical-align: middle;
 }
 
 td{
@@ -108,7 +110,7 @@ tbody tr:last-child th:first-child{
   border-bottom-left-radius: 10px;
 }
 
-tbody tr:last-child th:last-child{
+tbody tr:last-child td:last-child{
   border-bottom-right-radius: 10px;
 }
 
